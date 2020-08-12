@@ -1,0 +1,23 @@
+{
+  "include": ["src/"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowJs": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": ["es2016", "dom"],
+    "rootDir": "src/",
+    "outDir": "./build/",
+    "experimentalDecorators": true,
+    "jsx": "react-native",
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "noImplicitReturns": true
+  }
+}
